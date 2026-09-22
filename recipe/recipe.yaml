@@ -13,7 +13,7 @@ source:
   sha256: 09e27be9db148824dacea470d01018ab571676f94aa5428a05bcaec44c413ec7
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
@@ -27,7 +27,6 @@ requirements:
     - pypika-tortoise >=0.6.3,<1.0.0
     - iso8601 >=2.1.0,<3.0.0
     - aiosqlite >=0.16.0,<1.0.0
-    - pytz
     - anyio
     - typing-extensions >=4.1.0
     - tomlkit >=0.11.4,<1.0.0
